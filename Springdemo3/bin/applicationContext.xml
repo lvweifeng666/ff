@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+<!-- <bean id="ListBiz" class="com.biz.ListBiz">
+<property name="mylist">
+<list>
+<value>巡洋舰1</value>
+<value>巡洋舰2</value>
+<value>巡洋舰3</value>
+<value>巡洋舰4</value>
+</list>
+</property>
+</bean> -->
+
+
+
+<!-- <bean id="SetBiz" class="com.biz.SetBiz">
+<property name="myset">
+<set>
+<value>123</value>
+<value>123123</value>
+<value>123456</value>
+</set>
+</property>
+</bean> -->
+
+<!-- <bean id="MapBiz" class="com.biz.MapBiz">
+<property name="mymap">
+<map>
+<entry key="cn" value="中国"></entry>
+<entry key="js" value="中国11"></entry>
+<entry key="cn1" value="中国11"></entry>
+</map>
+</property>
+</bean> -->
+
+
+<bean id="property" class="com.biz.PropertiesBiz">
+<property name="myprops">
+<props>
+<prop key="1">技术部</prop>
+<prop key="2">技术部2</prop>
+<prop key="3">技术部3</prop>
+<prop key="4">技术部4</prop>
+</props>
+
+</property>
+</bean>
+
+</beans>
